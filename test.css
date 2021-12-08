@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    height: 50px;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.container__users-list {
+    position: relative;
+    height: 500px;
+    align-items: left;
+    overflow-y: scroll;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin: 0%;
+}
+
+.container__chat {
+    height: 500px;
+    margin: 1%;
+    overflow-y: scroll;
+    width: auto;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container__user-right img {
+    float: right;
+    max-width: 40px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container__user-right {
+    text-align: right;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: auto;
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container__user-left img {
+    float: left;
+    max-width: 40px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container__user-left {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: auto;
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container__user-message {
+    height: auto;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 1%;
+    height: 100px;
+    width: 100%;
+}
